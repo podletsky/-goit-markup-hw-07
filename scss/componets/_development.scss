@@ -1,0 +1,33 @@
+.development__title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+
+.development__item {
+    z-index: 0;
+    position: relative;
+}
+.development__name {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    text-transform: uppercase;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+}.development__list {
+    display: flex;
+    justify-content: space-between;
+}
